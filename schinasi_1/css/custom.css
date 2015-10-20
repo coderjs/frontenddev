@@ -1,0 +1,24 @@
+hr
+{
+    background-color: #BCBBBB;
+    border: 0 none;
+    color: #BCBBBB;
+    height: 3px;
+}
+
+img {
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+}
+
+H2 {
+	line-height: 75%;
+	margin: .25em 0;   /* from Firefox's default stylesheet* */
+}
+
+figure figcaption {
+    text-align: center;
+	line-height: 25%;
+}
