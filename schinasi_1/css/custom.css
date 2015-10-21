@@ -1,5 +1,4 @@
-hr
-{
+hr {
     background-color: #BCBBBB;
     border: 0 none;
     color: #BCBBBB;
@@ -14,11 +13,12 @@ img {
 }
 
 H2 {
-	line-height: 75%;
-	margin: .25em 0;   /* from Firefox's default stylesheet* */
+    line-height: 75%;
+    margin: .25em 0;
+   /* from Firefox's default stylesheet* */
 }
 
 figure figcaption {
     text-align: center;
-	line-height: 25%;
+    line-height: 25%;
 }

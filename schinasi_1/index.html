@@ -1,177 +1,186 @@
 <!DOCTYPE html>
 
 <!-- ATTENTION GRADER: -->
-		<!-- I used the bootstrap 3 css grid template and added a custom CSS document for additional formating-->
-		<!-- I added responsive images as per the course lessons, but I experienced issues with the Picture element. It would only accept one page break. -->
-		<!-- I used the bootstrap 3 grid template and added responsive images as per the course lessons. -->
-		<!-- I tried to use did experience issues with the Picture element, however.-->
-		
+<!-- I used the bootstrap 3 css grid template and added a custom CSS document for additional formating-->
+<!-- I added responsive images as per the course lessons, but I experienced issues with the Picture element. It would only accept one page break. -->
+<!-- I used the bootstrap 3 grid template and added responsive images as per the course lessons. -->
+<!-- I tried to use did experience issues with the Picture element, however.-->
+
 <html lang="en">
+
 <head>
-<title>Joe's Portfolio Project</title>
-<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-<meta content="utf-8" http-equiv="encoding">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="css/custom.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <title>Joe's Portfolio Project</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
-		
+
 <body>
-	
+
     <div class="container">
         <div class="row">
-<!-- Title Row -->
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 center-block"><img src="images/JoeLogo_v1B.svg" width="150" alt="Joe's Logo" class="img-responsive"></div>
-            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-right"><h1>JOE SCHINASI</h1><br><h3>FRONT-END NINJA</h3></div>
-			<div class="clearfix visible-xs-block"></div>
-            <div class="clearfix visible-sm-block"></div>
-            <div class="clearfix visible-md-block"></div>
-            <div class="clearfix visible-lg-block"></div>
-<!-- HR Row -->
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><hr></div>
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<img sizes="100vw" src="images/Jamaica-large.jpg" alt="Jamaica" 
-					class="img-responsive"
-					srcset="images/Jamaica-large.jpg 1024w,
-						images/Jamaica-medium.jpg 640w,
-						images/Jamaica-small.jpg 320w"/>		
-				</div>
-			<div class="clearfix visible-xs-block"></div>
-			<div class="clearfix visible-sm-block"></div>
-            <div class="clearfix visible-md-block"></div>
-            <div class="clearfix visible-lg-block"></div>
-<!-- Transition Row -->
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left"><h3>Featured Work</h3></div>
-			<div class="clearfix visible-xs-block"></div>
-            <div class="clearfix visible-sm-block"></div>
-            <div class="clearfix visible-md-block"></div>
-            <div class="clearfix visible-lg-block"></div>
+            <!-- Title Row -->
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 center-block"><img src="images/JoeLogo_v1B.svg" width="150" alt="Joe's Logo" class="img-responsive">
             </div>
-		<!-- START Four Pictures Row -->
-			<!-- Cappuccino Picture -->
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 center-block">
-				<div class="row">
-					<img sizes="100vw" src="images/coffee-small.jpg" alt="Cappuccino"
-					class="img-responsive"
-					srcset="images/coffee-large.jpg 1024w,
-							images/coffee-medium.jpg 640w,
-							images/coffee-small.jpg 320w"/>
-				</div>
-				<div class="row text-center"><H2>CAPPUCCINO 1</H2></div>
-				<div class="row text-center">via nested "div"</div>
-			</div>
-			<!-- Sunset Picture -->
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-				<div class="row">
-					<img sizes="100vw" src="images/Sunset-small.jpg" alt="Sunset"
-					class="img-responsive"
-					srcset="images/Sunset-large.jpg 1024w,
-							images/Sunset-medium.jpg 640w,
-							images/Sunset-small.jpg 320w"/>
-				</div>
-				<div class="row text-center"><H2>SUNSET 1</H2></div>
-				<div class="row text-center">via nested "div"</div>
-			</div>
-			<!-- BoxoRocks Picture -->
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-				<div class="row">
-					<img sizes="100vw" src="images/BoxoRocks-small.jpg" alt="Colorful Stones"
-					class="img-responsive"
-					srcset="images/BoxoRocks-large.jpg 1024w,
-							images/BoxoRocks-medium.jpg 640w,
-							images/BoxoRocks-small.jpg 320w"/>
-				</div>
-				<div class="row text-center"><H2>STONES 1</H2></div>
-				<div class="row text-center">via nested "div"</div>
-			</div>
-			<!-- ThaiTemple Picture -->
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-				<div class="row">
-					<img sizes="100vw" src="images/ThaiTemple-small.jpg" alt="Colorful Stones"
-					class="img-responsive"
-					srcset="images/ThaiTemple-large.jpg 1024w,
-							images/ThaiTemple-medium.jpg 640w,
-							images/ThaiTemple-small.jpg 320w"/>
-				</div>
-				<div class="row text-center"><H2>THAI TEMPLE 1</H2></div>
-				<div class="row text-center">via nested "div"</div>
-			</div>
-			<div class="clearfix visible-xs-block"></div>
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-right">
+                <h1>JOE SCHINASI</h1>
+                <br>
+                <h3>FRONT-END NINJA</h3>
+            </div>
+            <div class="clearfix visible-xs-block"></div>
             <div class="clearfix visible-sm-block"></div>
             <div class="clearfix visible-md-block"></div>
             <div class="clearfix visible-lg-block"></div>
-		<!-- END Four Picture Row -->
+            <!-- HR Row -->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <hr>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <img sizes="100vw" src="images/Jamaica-large.jpg" alt="Jamaica" class="img-responsive" srcset="images/Jamaica-large.jpg 1024w,
+						images/Jamaica-medium.jpg 640w,
+						images/Jamaica-small.jpg 320w" />
+            </div>
+            <div class="clearfix visible-xs-block"></div>
+            <div class="clearfix visible-sm-block"></div>
+            <div class="clearfix visible-md-block"></div>
+            <div class="clearfix visible-lg-block"></div>
+            <!-- Transition Row -->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">
+                <h3>Featured Work</h3>
+            </div>
+            <div class="clearfix visible-xs-block"></div>
+            <div class="clearfix visible-sm-block"></div>
+            <div class="clearfix visible-md-block"></div>
+            <div class="clearfix visible-lg-block"></div>
+        </div>
+        <!-- START Four Pictures Row -->
+        <!-- Cappuccino Picture -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 center-block">
+            <div class="row">
+                <img sizes="100vw" src="images/coffee-small.jpg" alt="Cappuccino" class="img-responsive" srcset="images/coffee-large.jpg 1024w,
+							images/coffee-medium.jpg 640w,
+							images/coffee-small.jpg 320w" />
+            </div>
+            <div class="row text-center">
+                <H2>CAPPUCCINO 1</H2>
+            </div>
+            <div class="row text-center">via nested "div"</div>
+        </div>
+        <!-- Sunset Picture -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+            <div class="row">
+                <img sizes="100vw" src="images/Sunset-small.jpg" alt="Sunset" class="img-responsive" srcset="images/Sunset-large.jpg 1024w,
+							images/Sunset-medium.jpg 640w,
+							images/Sunset-small.jpg 320w" />
+            </div>
+            <div class="row text-center">
+                <H2>SUNSET 1</H2>
+            </div>
+            <div class="row text-center">via nested "div"</div>
+        </div>
+        <!-- BoxoRocks Picture -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+            <div class="row">
+                <img sizes="100vw" src="images/BoxoRocks-small.jpg" alt="Colorful Stones" class="img-responsive" srcset="images/BoxoRocks-large.jpg 1024w,
+							images/BoxoRocks-medium.jpg 640w,
+							images/BoxoRocks-small.jpg 320w" />
+            </div>
+            <div class="row text-center">
+                <H2>STONES 1</H2>
+            </div>
+            <div class="row text-center">via nested "div"</div>
+        </div>
+        <!-- ThaiTemple Picture -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+            <div class="row">
+                <img sizes="100vw" src="images/ThaiTemple-small.jpg" alt="Colorful Stones" class="img-responsive" srcset="images/ThaiTemple-large.jpg 1024w,
+							images/ThaiTemple-medium.jpg 640w,
+							images/ThaiTemple-small.jpg 320w" />
+            </div>
+            <div class="row text-center">
+                <H2>THAI TEMPLE 1</H2>
+            </div>
+            <div class="row text-center">via nested "div"</div>
+        </div>
+        <div class="clearfix visible-xs-block"></div>
+        <div class="clearfix visible-sm-block"></div>
+        <div class="clearfix visible-md-block"></div>
+        <div class="clearfix visible-lg-block"></div>
+        <!-- END Four Picture Row -->
 
-<!-- START Four Pictures Row -->
-			<!-- Cappuccino Picture -->
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-				<div class="row">
-				<figure>	
-					<img sizes="100vw" src="images/coffee-small.jpg" alt="Cappuccino"
-					class="img-responsive"
-					srcset="images/coffee-large.jpg 1024w,
+        <!-- START Four Pictures Row -->
+        <!-- Cappuccino Picture -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+            <div class="row">
+                <figure>
+                    <img sizes="100vw" src="images/coffee-small.jpg" alt="Cappuccino" class="img-responsive" srcset="images/coffee-large.jpg 1024w,
 							images/coffee-medium.jpg 640w,
-							images/coffee-small.jpg 320w"/>
-				<figcaption><h2>CAPPUCCINO 2</h2>
-						<br><p>via "figure" tag</p>
-					</figcaption>
-				</figure>
-				</div>
-			</div>
-			<!-- Sunset Picture -->
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-				<div class="row">
-				<figure>
-					<img sizes="100vw" src="images/Sunset-small.jpg" alt="Sunset"
-					class="img-responsive"
-					srcset="images/Sunset-large.jpg 1024w,
+							images/coffee-small.jpg 320w" />
+                    <figcaption>
+                        <h2>CAPPUCCINO 2</h2>
+                        <br>
+                        <p>via "figure" tag</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <!-- Sunset Picture -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+            <div class="row">
+                <figure>
+                    <img sizes="100vw" src="images/Sunset-small.jpg" alt="Sunset" class="img-responsive" srcset="images/Sunset-large.jpg 1024w,
 							images/Sunset-medium.jpg 640w,
-							images/Sunset-small.jpg 320w"/>
-					<figcaption><h2>SUNSET 2</h2>
-						<br><p>via "figure" tag</p>
-					</figcaption>
-				</figure>
-				</div>
-			</div>
-			<!-- BoxoRocks Picture -->
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-				<div class="row">
-				<figure>
-					<img sizes="100vw" src="images/BoxoRocks-small.jpg" alt="Colorful Stones"
-					class="img-responsive"
-					srcset="images/BoxoRocks-large.jpg 1024w,
+							images/Sunset-small.jpg 320w" />
+                    <figcaption>
+                        <h2>SUNSET 2</h2>
+                        <br>
+                        <p>via "figure" tag</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <!-- BoxoRocks Picture -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+            <div class="row">
+                <figure>
+                    <img sizes="100vw" src="images/BoxoRocks-small.jpg" alt="Colorful Stones" class="img-responsive" srcset="images/BoxoRocks-large.jpg 1024w,
 							images/BoxoRocks-medium.jpg 640w,
-							images/BoxoRocks-small.jpg 320w"/>
-					<figcaption><h2>STONES 2</h2>
-						<br><p>via "figure" tag</p>
-					</figcaption>
-				</figure>
-				</div>
-			</div>
-			<!-- ThaiTemple Picture -->
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-				<div class="row">
-				<figure>
-					<img sizes="100vw" src="images/ThaiTemple-small.jpg" alt="Colorful Stones"
-					class="img-responsive"
-					srcset="images/ThaiTemple-large.jpg 1024w,
+							images/BoxoRocks-small.jpg 320w" />
+                    <figcaption>
+                        <h2>STONES 2</h2>
+                        <br>
+                        <p>via "figure" tag</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <!-- ThaiTemple Picture -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+            <div class="row">
+                <figure>
+                    <img sizes="100vw" src="images/ThaiTemple-small.jpg" alt="Colorful Stones" class="img-responsive" srcset="images/ThaiTemple-large.jpg 1024w,
 							images/ThaiTemple-medium.jpg 640w,
-							images/ThaiTemple-small.jpg 320w"/>	
-					<figcaption><h2>THAI TEMPLE 2</h2>
-						<br><p>via "figure" tag</p>
-					</figcaption>
-				</figure>
-			</div>
-			
-			<div class="clearfix visible-xs-block"></div>
+							images/ThaiTemple-small.jpg 320w" />
+                    <figcaption>
+                        <h2>THAI TEMPLE 2</h2>
+                        <br>
+                        <p>via "figure" tag</p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="clearfix visible-xs-block"></div>
             <div class="clearfix visible-sm-block"></div>
             <div class="clearfix visible-md-block"></div>
             <div class="clearfix visible-lg-block"></div>
-		<!-- END Four Picture Row -->
+            <!-- END Four Picture Row -->
 
         </div>
     </div>
 </body>
+
 </html>
